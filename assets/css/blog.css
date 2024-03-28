@@ -1,0 +1,47 @@
+:root {
+    --font: black;
+    --background: white;
+}
+
+.nav {
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--font);
+}
+
+.blogh2 {
+    font-size: 2rem;
+    color: var(--font)
+}
+
+.blogh4 {
+    color: var(--font);
+}
+
+.blogp {
+    color: var(--font);
+}
+
+.blogCard {
+    width: 80vw;
+    border: var(--font) 1px solid;
+}
